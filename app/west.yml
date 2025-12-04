@@ -6,7 +6,6 @@ manifest:
       url-base: https://github.com/zmkfirmware
   projects:
     - name: zephyr
-      remote: dannygrob
       revision: pcf8575-support
       url: https://github.com/dannygrob/zmk-zephyr
       path: zephyr
