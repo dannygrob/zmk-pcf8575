@@ -1,13 +1,13 @@
 manifest:
   remotes:
-    - name: zephyrproject-rtos
-      url-base: https://github.com/zephyrproject-rtos
+    - name: dannygrob
+      url-base: https://github.com/dannygrob
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   projects:
-    - name: zephyr
-      remote: zmkfirmware
-      revision: v3.5.0+zmk-fixes
+    - name: zmk-zephyr
+      remote: dannygrob
+      revision: pcf8575-support
       clone-depth: 1
       import:
         name-blocklist:
