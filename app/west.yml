@@ -5,10 +5,11 @@ manifest:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
   projects:
-    - name: zmk-zephyr
+    - name: zephyr
       remote: dannygrob
       revision: pcf8575-support
-      clone-depth: 1
+      url: https://github.com/dannygrob/zmk-zephyr
+      path: zephyr
       import:
         name-blocklist:
           - ci-tools
