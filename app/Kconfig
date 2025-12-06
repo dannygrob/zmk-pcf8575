@@ -214,7 +214,8 @@ config ZMK_BLE_MOUSE_REPORT_QUEUE_SIZE
 
 config ZMK_BLE_CLEAR_BONDS_ON_START
     bool "Configuration that clears all bond information from the keyboard on startup."
-
+    default y
+    
 # HID GATT notifications sent this way are *not* picked up by Linux, and possibly others.
 config BT_GATT_NOTIFY_MULTIPLE
     default n
